@@ -13,7 +13,7 @@ class Config:
     OWNER_ID = int(os.environ.get("OWNER_ID", 5468192421))
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001767363693")  
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", "5468192421"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", 5468192421))
     # database session name, example: xurluploader
     SESSION_NAME = os.environ.get("SESSION_NAME", "submux")
     # database uri (mongodb)
